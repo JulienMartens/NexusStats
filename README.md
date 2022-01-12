@@ -4,6 +4,8 @@ Ce script genère des graphiques et données statistiques a partir de données P
 
 Pour fonctionner, il faut préparer 1 ou 2 populations de csv exportés de Nexus 2, chacune contenue dans un dossier distinct. Les CSV doivent contenir des modèles PlugInGait reconstruits, sans trous dans les données.
 
+![population](https://user-images.githubusercontent.com/47147929/149176687-a8df554e-64ac-4467-ba42-a360e6631287.PNG)
+
 Le script génèrera ensuite pour chaque population un dossier de résultats dans le dossier où il se trouve.
 
 ## Graphes et données :
