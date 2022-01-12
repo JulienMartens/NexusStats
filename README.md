@@ -17,7 +17,7 @@ Pour chaque population, ce script génère les graphiques normalisés par cycle 
 Il génère ensuite les mêmes graphiques de la différence entre la 2ème population et la première ainsi que pour chaque patient de chaque population.
 Les données brutes utilisées pour les graphiques sont stockées dans un CSV contenu dans le dossier correspondant.
 
-**Exemple de graphe :**
+**Exemple de graphe généré :**
 ![Flexion cheville D](https://user-images.githubusercontent.com/47147929/149182881-69557d04-b3db-4926-a4ce-76a70c74ed2a.png)
 
 ## Test statistique :
