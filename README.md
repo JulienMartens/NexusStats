@@ -13,6 +13,7 @@ Les données brutes utilisées pour les graphiques sont stockées dans un CSV co
 ## Test statistique :
 
 **Test de Kolmogorov-Smirnov** : Permet de comparer la progression articulaire de 2 articulations : pour chaque test, une p-value < 0,05 indique une différence statistique entre les mouvements des 2 articulations testées. Un test de Kolmogorov-Smirnov est réalisé pour comparer chaque articulation de la population 1 avec celles de la population 2
+Les résultats de ce test sont stockés dans  "Test Kolmogorov-Smirnov.xlsx", contenu dans le dossier de résultat contenant les courbes de différences entre les 2 populations.
 
 ## 1 seule population :
 
