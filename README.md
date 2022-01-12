@@ -4,6 +4,8 @@ Ce script genère des graphiques et données statistiques a partir de données P
 
 Pour fonctionner, il faut préparer 1 ou 2 populations de csv exportés de Nexus 2, chacune contenue dans un dossier distinct. Les CSV doivent contenir des modèles PlugInGait reconstruits, sans trous dans les données.
 
+Le script génèrera ensuite pour chaque population un dossier de résultats dans le dossier où il se trouve.
+
 ## Graphes et données :
 
 Pour chaque population, ce script génère les graphiques normalisés par cycle de marche du mouvement et de son écart-type pour chaque articulation dans les 3 axes. 
