@@ -6,7 +6,7 @@ Pour fonctionner, il faut préparer 1 ou 2 populations de csv exportés de Nexus
 
 Le script génèrera ensuite pour chaque population un dossier de résultats dans le dossier où il se trouve.
 
-**Exemple d'architecture de dossiers de population :**
+**Exemple d'organisation des dossiers de population :**
 
 ![population](https://user-images.githubusercontent.com/47147929/149176687-a8df554e-64ac-4467-ba42-a360e6631287.PNG)
 
