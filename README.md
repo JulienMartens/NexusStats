@@ -29,11 +29,13 @@ Les résultats de ce test sont stockés dans  "Test Kolmogorov-Smirnov.xlsx", co
 
 ![boite rouge](https://user-images.githubusercontent.com/47147929/149499861-4437b92f-24e2-4004-9474-8bcd924ff683.PNG)
 
-## 1 seule population :
+## Cas particuliers :
+
+### 1 seule population :
 
 Dans le cas où on veut seulement récupérer les données et graphes pour une population de patient, séléctionner le dossier qui la contient en premier et cliquer sur "Annuler" lors de la selection de la seconde population.
 
-## Cas de population avec côté sain et pathologique :
+### Cas de population avec côté sain et pathologique :
 
 Dans le cas où on a une population (par exemple de patients hémiplégiques) présentant un côté sain et un côté pathologique, identifier le côté pathologique du patient en commencant le csv par "G_" ou "D_" en fonction d'une pathologie du côté gauche ou droit. par exemple, patient1.csv devra être nommé G_patient1.csv si son côté gauche est pathologique.
 
