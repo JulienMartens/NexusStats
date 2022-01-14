@@ -29,7 +29,7 @@ Les résultats de ce test sont stockés dans  "Test Kolmogorov-Smirnov.xlsx", co
 
 ![boite rouge](https://user-images.githubusercontent.com/47147929/149499861-4437b92f-24e2-4004-9474-8bcd924ff683.PNG)
 
-## Cas particuliers :
+## Cas d'utilisation :
 
 ### 1 seule population :
 
