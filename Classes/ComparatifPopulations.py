@@ -117,7 +117,7 @@ class ComparatifPopulations():
             {"cote":"G", "noms": ["","","Progression pas G"], "articulation": "PiedG"},
             {"cote":"D", "noms": ["Bascule bassin D","Obliquité bassin D","Rotation bassin D"], "articulation": "PelvisD"},
             {"cote":"D", "noms": ["Flexion hanche D","Abd-adduction hanche D","Rotation hanche D"], "articulation": "HancheD"},
-            {"cote":"D", "noms": ["Flexion genou D","","Varus-Valgus Denou D"], "articulation": "GenouD"},
+            {"cote":"D", "noms": ["Flexion genou D","","Varus-Valgus genou D"], "articulation": "GenouD"},
             {"cote":"D", "noms": ["Flexion cheville D","Rotation cheville D",""], "articulation": "ChevilleD"},
             {"cote":"D", "noms": ["","","Progression pas D"], "articulation": "PiedD"}]
 
@@ -166,7 +166,7 @@ class ComparatifPopulations():
             else :
                 color = "#90EE90"
             positionTexte = maxGraph-(abs(maxGraph)+abs(minGraph))*0.04
-            ax.text(1, positionTexte,"P-value KS: " + str(KStest), bbox=dict(boxstyle="square,pad=0.3",fc=color))
+            ax.text(1, positionTexte,"P-value KS: " + str(format(KStest, '.4f')), bbox=dict(boxstyle="square,pad=0.3",fc=color))
         #Génère les plots de données et les zone grisées de stDev
         donneesErrPos = []
         donneesErrNeg = []        
