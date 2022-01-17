@@ -42,3 +42,9 @@ Dans le cas où on a une population (par exemple de patients hémiplégiques) pr
 Le script échangera ensuite les côté gauche et droit des patients présentant une pathologie à droite afin que tous les membres sains soient à droite et tous les membres pathologiques à gauche pour tous les patients. 
 
 Un patient dont le côté gauche et droit ont été inversés portera la mention "inversé" dans son nom. Par exemple, le patient D_toto.csv s'appellera D_toto inversé.
+
+## Problèmes connus :
+
+### Fuite de mémoire : 
+
+utiliser une version de matplotlib plus récente que la 3.3.4 déclenche une fuite de mémoire. Utiliser la version 3.3.4 ou inférieure pour régler ce problème.
