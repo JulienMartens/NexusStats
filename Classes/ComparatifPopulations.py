@@ -177,4 +177,6 @@ class ComparatifPopulations():
         ax.fill_between(np.linspace(0, 100, num=len(donnees)), donneesErrPos, donneesErrNeg, alpha=0.2)
         ax.plot([contact, contact],[-360, 360], c='blue',linewidth=2, linestyle="--")
         fig.savefig(path+"\\"+nom, bbox_inche='tight')
+        plt.cla()
+        plt.clf()
         plt.close()
