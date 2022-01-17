@@ -45,6 +45,10 @@ Un patient dont le côté gauche et droit ont été inversés portera la mention
 
 ## Problèmes connus :
 
+### Plantage sur un patient :
+
+Les csv de patients doivent être sans trous et avec events de marche pour fonctionner ! Si le fichier présente des trous ou a des erreurs ou une absence dans les events de marche ( par exemple 2 premiers contact l'un après l'autre), le script plantera.
+
 ### Fuite de mémoire : 
 
 Utiliser une version de matplotlib plus récente que la 3.3.4 déclenche une fuite de mémoire. Utiliser la version 3.3.4 ou inférieure pour régler ce problème.
