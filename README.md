@@ -47,4 +47,4 @@ Un patient dont le côté gauche et droit ont été inversés portera la mention
 
 ### Fuite de mémoire : 
 
-utiliser une version de matplotlib plus récente que la 3.3.4 déclenche une fuite de mémoire. Utiliser la version 3.3.4 ou inférieure pour régler ce problème.
+Utiliser une version de matplotlib plus récente que la 3.3.4 déclenche une fuite de mémoire. Utiliser la version 3.3.4 ou inférieure pour régler ce problème.
