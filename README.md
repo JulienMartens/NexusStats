@@ -11,6 +11,16 @@ Le script génèrera ensuite pour chaque population un dossier de résultats dan
 ![population](https://user-images.githubusercontent.com/47147929/149176687-a8df554e-64ac-4467-ba42-a360e6631287.PNG)
 
 
+## Prérequis :
+
+Les librairies utilisées par ce script sont contenues dans le fichier requirements.txt, ce script a été testé et fonctionne sous python 3.9.9.
+
+**Python 3.9.9
+Matplotlib 3.3.4
+Numpy
+Scipy
+Xlsxwriter**
+
 ## Graphes et données :
 
 Pour chaque population, ce script génère les graphiques normalisés par cycle de marche du mouvement et de son écart-type pour chaque articulation dans les 3 axes. 
