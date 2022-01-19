@@ -65,7 +65,7 @@ class ComparatifPopulations():
         cellFormatRouge = workbook.add_format({ 'bg_color': '#F08080'})
         cellFormatVert = workbook.add_format({ 'bg_color': '#90EE90'})
         for i in range(0,3):
-            if resultatTests[articulation][i][1]<0.05:
+            if resultatTests[articulation][i][1]>0.05:
                 worksheet.write(ligne,2*i+1,resultatTests[articulation][i][0],cellFormatRouge)
                 worksheet.write(ligne,2*i+2,resultatTests[articulation][i][1],cellFormatRouge)
             else:
@@ -171,11 +171,11 @@ class ComparatifPopulations():
         maxGraph = max(donnees)+max(donneesStdev)*1.1
         ax.set_ylim(minGraph, maxGraph)
         if KStestPos != '':
-            if KStestPos < 0.05:
+            if KStestPos > 0.05:
                 colorPos = "#F08080"
             else :
                 colorPos = "#90EE90"
-            if KStestNeg < 0.05:
+            if KStestNeg > 0.05:
                 colorNeg = "#F08080"
             else :
                 colorNeg = "#90EE90"
