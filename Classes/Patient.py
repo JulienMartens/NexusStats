@@ -154,7 +154,7 @@ class Patient:
         noms_devices = donnees_brutes[debut_donnees_devices-3].split(",")
         noms_model_output = donnees_brutes[debut_donnees_model-3].split(",")
         for j in range(0,len(noms_devices)):
-            if "Force Plate - Force" in noms_devices[j]:
+            if "- Force" in noms_devices[j]:
                 listePlaceForceplateZ.append(j+2)
         for j in range(0,len(noms_model_output)):
             if "LFootProgressAngles" in noms_model_output[j]:
